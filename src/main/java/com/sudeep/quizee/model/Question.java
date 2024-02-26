@@ -7,10 +7,10 @@ import lombok.Data;
 
 @Data
 @Entity
-public class Question {
+public class Question {  // question model class to define the question enetity struture
 
     @Id
-    @GeneratedValue(strategy=GenerationType.IDENTITY)
+    @GeneratedValue(strategy=GenerationType.IDENTITY) //for auto identity
     private Integer id;
     private String category;
     private String difficulty;
@@ -20,7 +20,7 @@ public class Question {
     private String option3;
     private String option4;
     private String answer;
-
+// the attributes of question model
 
 
 }

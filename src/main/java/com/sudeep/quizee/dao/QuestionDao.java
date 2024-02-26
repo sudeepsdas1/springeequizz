@@ -6,6 +6,9 @@ import org.springframework.stereotype.Repository;
 
 import java.util.List;
 
+
+
+//a questiondao
 @Repository
 public interface QuestionDao extends JpaRepository<Question,Integer> {
 
